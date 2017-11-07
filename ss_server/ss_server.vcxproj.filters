@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="主线程">
+      <UniqueIdentifier>{0121bd9c-740e-4f07-8b78-e11fcac554b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="初始化socket">
+      <UniqueIdentifier>{6ed99a44-c9b4-4324-bccd-ca936b4f7a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="worker">
+      <UniqueIdentifier>{842e64b5-a5f4-45e2-9c5e-70a7bb8ab840}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="投递">
+      <UniqueIdentifier>{69fb047a-7506-4a0d-aab2-6d0d9eb0beb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tool">
+      <UniqueIdentifier>{da37b331-ad50-4c17-a246-7477e2586bfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="process">
+      <UniqueIdentifier>{a32873f2-0059-4c86-bc78-d130e179d519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="timer">
+      <UniqueIdentifier>{08492015-a955-449e-845b-9a1da6abf50e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dq">
+      <UniqueIdentifier>{3e505628-48d3-45db-a1ec-9479866bf6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="log">
+      <UniqueIdentifier>{6a41a7bb-ffae-4a86-aaec-21171e8f9c6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="servo&amp;accept">
+      <UniqueIdentifier>{96133187-a10f-41c9-acc5-471e33dbec4b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ss_main.cpp">
+      <Filter>主线程</Filter>
+    </ClCompile>
+    <ClCompile Include="ss_global_resource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ss_init_socket.cpp">
+      <Filter>初始化socket</Filter>
+    </ClCompile>
+    <ClCompile Include="ss_worker.cpp">
+      <Filter>worker</Filter>
+    </ClCompile>
+    <ClCompile Include="ss_post_request.cpp">
+      <Filter>投递</Filter>
+    </ClCompile>
+    <ClCompile Include="tool.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="ss_do_process.cpp">
+      <Filter>process</Filter>
+    </ClCompile>
+    <ClCompile Include="ss_timer.cpp">
+      <Filter>timer</Filter>
+    </ClCompile>
+    <ClCompile Include="ss_memory.cpp">
+      <Filter>dq</Filter>
+    </ClCompile>
+    <ClCompile Include="ss_log_show.cpp">
+      <Filter>log</Filter>
+    </ClCompile>
+    <ClCompile Include="ss_accept_thread.cpp">
+      <Filter>servo&amp;accept</Filter>
+    </ClCompile>
+    <ClCompile Include="ss_accept_function.cpp">
+      <Filter>servo&amp;accept</Filter>
+    </ClCompile>
+    <ClCompile Include="ss_servo_thread.cpp">
+      <Filter>servo&amp;accept</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ss_global_resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ss_init_socket.h">
+      <Filter>初始化socket</Filter>
+    </ClInclude>
+    <ClInclude Include="ss_worker.h">
+      <Filter>worker</Filter>
+    </ClInclude>
+    <ClInclude Include="ss_post_reques.h">
+      <Filter>投递</Filter>
+    </ClInclude>
+    <ClInclude Include="tool.h">
+      <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="ss_do_process.h">
+      <Filter>process</Filter>
+    </ClInclude>
+    <ClInclude Include="ss_timer.h">
+      <Filter>timer</Filter>
+    </ClInclude>
+    <ClInclude Include="ss_memory.h">
+      <Filter>dq</Filter>
+    </ClInclude>
+    <ClInclude Include="ss_log_show.h">
+      <Filter>log</Filter>
+    </ClInclude>
+    <ClInclude Include="ss_accept_thread.h">
+      <Filter>servo&amp;accept</Filter>
+    </ClInclude>
+    <ClInclude Include="ss_accept_function.h">
+      <Filter>servo&amp;accept</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="修改记录.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

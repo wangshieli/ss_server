@@ -1,0 +1,9 @@
+2017.05.05 00:05 
+	修改了用于发送拨号信息的socket对象的生存周期
+	老版本：socket对象在下一次代理6086链接的时候释放
+	新版本：socket对象在发送一次6086信息之后立即被释放
+	修改计划：按照mainlink退出的方式，完成WSARecv，使得redial完美退出
+
+2107.05.06
+	修改PostAccept中错误时关闭socket
+	投递出错时直接关闭socket，外部不在调用LSCloseSocket
